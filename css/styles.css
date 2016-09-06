@@ -1,0 +1,173 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-size: 14px;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -40px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+/* Set the fixed height of the footer here */
+#footer {
+  height: 40px;
+  background-color: #f5f5f5;
+}
+#footer .container {
+  padding-top: 10px;
+}
+small.hidden-xs {
+  display: inline !important;
+}
+@media (max-width: 768px) {
+  small.hidden-xs {
+    display: none !important;
+  }
+  div[class^="col"] {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+textarea {
+  resize: none;
+}
+.v-spacer {
+  height: 12px;
+}
+.no-margin {
+  margin: 0;
+}
+#main-row {
+  min-height: 470px;
+
+}
+.navbar-header {
+  float: none;
+}
+.logo-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+.logo-container h4 {
+  margin: 10px 0 0;
+  padding-left: 17px;
+  font-size: 16px;
+  color: #DEDEDE;
+}
+.logo-container h5 {
+  margin: 0;
+}
+#user-dropdown {
+  float: right;
+  margin-top: 30px;
+}
+#user-dropdown p {
+  margin: 10px;
+  line-height: 14px;
+}
+#user-dropdown ul > li > a {}
+.list-group-item {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.list-group-item.active {
+  color: #FFFFFF;
+}
+#override-info-container {
+  position: relative;
+}
+#editor-placeholder {
+    background: url("../images/logo_engraved.png") no-repeat center center;
+    height: 656px;
+}
+#editor-loading {
+    height: 656px;
+    text-align: center;
+    line-height: 656px;
+}
+.left-tab-content {
+    max-height: 590px;
+    padding-right: 8px;
+    overflow: auto;
+    margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+    #editor-placeholder {
+        height: 300px;
+    }
+    #editor-loading {
+        height: 300px;
+        text-align: center;
+        line-height: 300px;
+    }
+    .left-tab-content {
+        max-height: 260px;
+        padding-right: 8px;
+        overflow: auto;
+    }
+}
+.tab-container .row {
+    margin-bottom: 12px;
+}
+#save-btn {
+    cursor: pointer;
+}
+#design-tab li.active, #custom-tab li.active {
+    cursor: default;
+}
+
+.left-tab-content::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+.left-tab-content::-webkit-scrollbar-button:start:decrement,
+.left-tab-content::-webkit-scrollbar-button:end:increment {
+    height: 0;
+    display: none;
+}
+
+.left-tab-content::-webkit-scrollbar-track-piece {
+    background-color: #EFEFEF;
+    -webkit-border-radius: 6px;
+}
+
+.left-tab-content::-webkit-scrollbar-thumb:vertical {
+    -webkit-border-radius: 6px;
+    background-color: #dedede;
+}
+.left-tab-content .list-group {
+    margin-bottom: 0;
+}
+textarea.form-control {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+    font-size: 12px;
+}
+#login-window {
+    max-width: 400px;
+}
+.alert {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+.list-group-item:hover {
+    background-color: #dedede;
+}
+.popover {
+    max-width: none;
+}
+.comments-popover {
+    min-width: 400px;
+}
+.comments-popover-comment {
+    margin: 2px;
+}
+
