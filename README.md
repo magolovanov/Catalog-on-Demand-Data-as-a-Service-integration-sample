@@ -28,7 +28,12 @@ UI and source code that illustrates how a simple integration of Catalog-on-Deman
 # Installation
 
 Place dataAsAServiceDemo as a subdirectory of any Web server HTTP document root directiory. The Web server must have PHP runtime (any more or less fresh version) installed. In tthe Web browser, navjgate to the application: 
+
 https://webservices.catalog-on-demand.com/dataAsAServiceDemo/index.php
+
+(in this case, repository fines have been deployed in the directory
+
+/dataAsAServiceDemo)
 
 # Sample apllication components
 
