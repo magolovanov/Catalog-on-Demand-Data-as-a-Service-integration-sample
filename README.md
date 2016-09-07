@@ -51,9 +51,9 @@ track.php: UI for the steps 9,10 in the workflow. Calls processTrack.php and pro
 
 ## Server-side scripts
 
-processLogin.php: makes ValidateUser Catalog-on-Demand® API call with user credentials passed to it by login,php; in case of success, remembers user data in the session. Returns call status / error description to the caller.
+processLogin.php: makes ValidateUser Catalog-on-Demand API call with user credentials passed to it by login,php; in case of success, remembers user data in the session. Returns call status / error description to the caller.
 
-processLogin.php: makes ValidateUser Catalog-on-Demand® API call with user credentials passed to it by login,php; in case of success, remembers user data in the session. Returns call status / error description to the caller.
+processLogin.php: makes ValidateUser Catalog-on-Demand API call with user credentials passed to it by login,php; in case of success, remembers user data in the session. Returns call status / error description to the caller.
 
 processConfiguration.php: remembers passed selected configuration index in the session. Returns call status to the caller.
 
@@ -61,4 +61,4 @@ processSKUs.php: processes SKU numbers file upload, calls the sample stub (data 
 
 processSubmit.php: remembers passed job ID, builds Flexible Job File text, makes Flexible Job File API call, processes call response, remembers session ID, Catalog-on-Demand job ID and process ID in the session. Returns call status / error description to the caller.
 
-processTrack.php: polls Catalog-on-Demand API (GetBackgroundJobProcessingState call). Returns call status abd results / error description to the caller.
+processTrack.php: polls Catalog-on-Demand API (GetBackgroundJobProcessingState call). Returns call status and results / error description to the caller.
