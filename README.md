@@ -5,7 +5,7 @@ UI and source code that illustrate how a simple integration of Catalog-on-Demand
 
 UI and source code that illustrates how a simple integration of Catalog-on-Demand® with Data-as-a-Service providers might work. The workflow is as follows:
 
-1. User goes to the application deployed on a Web site and is prompted for a Catalog-on-Demand user ID and password, and clicks "Login". 
+1. User goes to the application deployed on a Web site and is prompted for a Catalog-on-Demand user ID and password, and clicks Login. 
 
 2. The application makes ValidateUser Catalog-on-Demand API call, authorizes the user and obtains user attributes.
 
