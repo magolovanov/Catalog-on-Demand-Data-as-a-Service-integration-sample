@@ -41,7 +41,7 @@ https://webservices.catalog-on-demand.com/dataAsAServiceDemo/index.php
 
 login.php: UI for the step 2 in the workflow. Calls processLogin.php and processes its output.
 
-selectConfiguration.php: UI for the steps 4,5 in the wiorkflow. Calls processConfiguration.php and processes its output.
+selectConfiguration.php: UI for the steps 4,5 in the workflow. Calls processConfiguration.php and processes its output.
 
 submit.php: UI for the steps 4,5 in the workflow. Calls processSKUs.php and processes its output.
 
